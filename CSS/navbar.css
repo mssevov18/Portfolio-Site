@@ -6,6 +6,7 @@ html, body {
     background-color: rgb(165, 42, 42);
     padding: 12px 0px 12px 0px;
     z-index: 10;
+    border-bottom: 3px rgb(0, 0, 0) solid;
 }
 
 .nav .first_a {

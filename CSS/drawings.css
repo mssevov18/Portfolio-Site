@@ -1,0 +1,57 @@
+body {
+    background: repeating-radial-gradient(rgb(36, 27, 168) 0%, rgb(173, 78, 49) 100%);
+    background-repeat: no-repeat;
+}
+
+.grid_container {
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-top: 2.5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 50px;
+}
+
+    div.gallery {
+        margin: 5px;
+        border: 3px solid ;
+        float: left;
+        width: 360px;
+    }
+
+        div.gallery.digital {
+            border-color: rgb(38, 221, 69);
+            background-color: rgb(193, 235, 209);
+        }
+
+        div.gallery.digital:hover {
+            border-color: rgb(72, 148, 91);
+        }
+
+        div.gallery.sfm {
+            border-color: rgb(209, 221, 38);
+            background-color: rgb(234, 235, 193);
+        }
+
+        div.gallery.sfm:hover {
+            border-color: rgb(147, 148, 72);
+        }
+
+        div.gallery.traditional {
+            border-color: rgb(38, 221, 191);
+            background-color: rgb(193, 235, 232);
+        }
+
+        div.gallery.traditional:hover {
+            border-color: rgb(72, 148, 138);
+        }
+        
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+    
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
