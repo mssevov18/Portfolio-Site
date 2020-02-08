@@ -1,9 +1,15 @@
+:root {
+    --main-navbar-bg-color: rgb(165, 42, 42);
+    --main-navbar-button-color: rgb(196, 157, 43);
+    --main-navbar-text-color: rgb(42, 73, 165);
+}
+
 html, body {
     margin: 0px;
 }
 
 .nav {
-    background-color: rgb(165, 42, 42);
+    background-color: var(--main-navbar-bg-color);
     padding: 12px 0px 12px 0px;
     z-index: 10;
     border-bottom: 3px rgb(112, 30, 30) solid;
@@ -22,14 +28,14 @@ html, body {
 }
 
 .inactive{
-    background-color: rgb(196, 157, 43);
-    color: rgb(42, 73, 165);
+    background-color: var(--main-navbar-button-color);
+    color: var(--main-navbar-text-color);
     border-radius: 16px;
 }
 
 .inactive:link {
-    background-color: rgb(196, 157, 43);
-    color: rgb(42, 73, 165);
+    background-color: var(--main-navbar-button-color);
+    color: var(--main-navbar-text-color);
     text-decoration: none;
 }
 
@@ -44,8 +50,8 @@ html, body {
 }
 
 .inactive:visited {        
-    background-color: rgb(196, 157, 43);
-    color: rgb(42, 73, 165);
+    background-color: var(--main-navbar-button-color);
+    color: var(--main-navbar-text-color);
     text-decoration: none;
 }
 
