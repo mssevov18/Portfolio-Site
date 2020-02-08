@@ -19,30 +19,30 @@ body {
         width: 360px;
     }
 
-        div.gallery.digital {
+        div.digital {
             border-color: rgb(38, 221, 69);
             background-color: rgb(193, 235, 209);
         }
 
-        div.gallery.digital:hover {
+        div.digital:hover {
             border-color: rgb(72, 148, 91);
         }
 
-        div.gallery.sfm {
+        div.sfm {
             border-color: rgb(209, 221, 38);
             background-color: rgb(234, 235, 193);
         }
 
-        div.gallery.sfm:hover {
+        div.sfm:hover {
             border-color: rgb(147, 148, 72);
         }
 
-        div.gallery.traditional {
+        div.traditional {
             border-color: rgb(38, 221, 191);
             background-color: rgb(193, 235, 232);
         }
 
-        div.gallery.traditional:hover {
+        div.traditional:hover {
             border-color: rgb(72, 148, 138);
         }
         
@@ -54,4 +54,22 @@ body {
     div.desc {
         padding: 15px;
         text-align: center;
+    }
+
+    .legend {
+        width: 75%;
+        border: 3px solid;
+        border-radius: 6px;
+    }
+
+    .legend_heading {
+        margin-top: 3.5%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 28px;
+        max-width: 40%;
+        background-color: rgb(161, 179, 228);
+        border: 3px solid rgb(179, 210, 245);
+        border-radius: 16px;
     }

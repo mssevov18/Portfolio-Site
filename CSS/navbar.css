@@ -6,7 +6,7 @@ html, body {
     background-color: rgb(165, 42, 42);
     padding: 12px 0px 12px 0px;
     z-index: 10;
-    border-bottom: 3px rgb(0, 0, 0) solid;
+    border-bottom: 3px rgb(112, 30, 30) solid;
 }
 
 .nav .first_a {
@@ -21,32 +21,30 @@ html, body {
     border: rgba(0,0,0,0) 1px solid;
 }
 
-.nav a:not(.active) {
-    background-color: rgb(165, 134, 42);
+.inactive{
+    background-color: rgb(196, 157, 43);
     color: rgb(42, 73, 165);
     border-radius: 16px;
 }
 
-.nav a:link:not(.active) {
-    background-color: rgb(165, 134, 42);
+.inactive:link {
+    background-color: rgb(196, 157, 43);
     color: rgb(42, 73, 165);
     text-decoration: none;
 }
 
-.nav a:active:not(.active) {
-    background-color: rgb(176, 149, 69);
+.inactive:active {
     color: rgb(26, 46, 103);
     text-decoration: underline;
 }
 
-.nav a:hover:not(.active) {
-    background-color: rgb(176, 149, 69);
+.inactive:hover {
     color: rgb(37, 64, 144);
     text-decoration: underline;
 }
 
-.nav a:visited:not(.active) {        
-    background-color: rgb(165, 134, 42);
+.inactive:visited {        
+    background-color: rgb(196, 157, 43);
     color: rgb(42, 73, 165);
     text-decoration: none;
 }
