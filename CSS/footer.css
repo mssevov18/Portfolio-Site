@@ -1,0 +1,6 @@
+.footer {
+    position: static;
+    background-color: rgb(66, 66, 66);
+    color: rgb(231, 231, 231);
+    padding-top: 6%;
+}
