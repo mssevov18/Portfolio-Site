@@ -10,9 +10,12 @@ html, body {
 
 .nav {
     background-color: var(--main-navbar-bg-color);
-    padding: 12px 0px 12px 0px;
+    padding: 4px 0px 6px 0px;
     z-index: 10;
     border-bottom: 3px rgb(112, 30, 30) solid;
+    font-size: 22px;
+    display: flex;
+    height: auto;
 }
 
 .nav .first_a {
@@ -22,9 +25,10 @@ html, body {
 .nav a {
     padding: 6px;
     margin: 2px;
-    font-size: 22px;
     text-decoration: none;
     border: rgba(0,0,0,0) 1px solid;
+    height: 100%;
+    width: auto;
 }
 
 .inactive{
